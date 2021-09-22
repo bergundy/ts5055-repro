@@ -1,0 +1,19 @@
+{
+  "name": "ts5055-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --build packages/b",
+    "build.watch": "tsc --build --watch packages/b"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@tsconfig/node14": "^1.0.1"
+  }
+}
